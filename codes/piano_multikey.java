@@ -169,7 +169,7 @@ public class piano_multikey extends JFrame {
             
             	if(frame1_2.isSelected()) {
                 try {
-	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\Sharp notes\\Sharp notes\\C1# (online-audio-converter (mp3cut.net).wav"));
+	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C1# (online-audio-converter (mp3cut.net).wav"));
 	Clip clip = AudioSystem.getClip();
 	clip.open(audioInputStream);
 	clip.start();
@@ -186,7 +186,7 @@ catch(Exception ex)
             
         	if(frame3_4.isSelected()) {
                 try {
-	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C3# (online-audio-converter (mp3cut.net).wav"));
+	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C3# (online-audio-converter (mp3cut.net).wav"));
 	Clip clip = AudioSystem.getClip();
 	clip.open(audioInputStream);
 	clip.start();
@@ -202,7 +202,7 @@ catch(Exception ex)
             }
          	if(frame5_6.isSelected()) {
                 try {
-	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C5# (online-audio-converter (mp3cut.net).wav"));
+	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C5# (online-audio-converter (mp3cut.net).wav"));
 	Clip clip = AudioSystem.getClip();
 	clip.open(audioInputStream);
 	clip.start();
@@ -219,7 +219,7 @@ catch(Exception ex)
         	
          	if(frame7_8.isSelected()) {
                 try {
-	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C7# (online-audio-converter (mp3cut.net).wav"));
+	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C7# (online-audio-converter (mp3cut.net).wav"));
 	Clip clip = AudioSystem.getClip();
 	clip.open(audioInputStream);
 	clip.start();
@@ -242,7 +242,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A2# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A2# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -257,7 +257,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A4# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A4# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -272,7 +272,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A6# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A6# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -298,7 +298,7 @@ catch(Exception ex)
         		
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F2# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F2# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -313,7 +313,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F4# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F4# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -328,7 +328,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F6# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F6# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -354,7 +354,7 @@ catch(Exception ex)
         		
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G2# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G2# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -369,7 +369,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G4# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G4# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -384,7 +384,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G6# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G6# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -410,7 +410,7 @@ catch(Exception ex)
         		
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D2# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D2# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -425,7 +425,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D4# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D4# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -440,7 +440,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D6# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D6# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -466,7 +466,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
              	if(frame1_2.isSelected()) {
                     try {
-    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C2# (online-audio-converter (mp3cut.net).wav"));
+    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C2# (online-audio-converter (mp3cut.net).wav"));
     	Clip clip = AudioSystem.getClip();
     	clip.open(audioInputStream);
     	clip.start();
@@ -482,7 +482,7 @@ catch(Exception ex)
                 }
              	if(frame3_4.isSelected()) {
                     try {
-    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C4# (online-audio-converter (mp3cut.net).wav"));
+    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C4# (online-audio-converter (mp3cut.net).wav"));
     	Clip clip = AudioSystem.getClip();
     	clip.open(audioInputStream);
     	clip.start();
@@ -498,7 +498,7 @@ catch(Exception ex)
                 }
              	if(frame5_6.isSelected()) {
                     try {
-    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C6# (online-audio-converter (mp3cut.net).wav"));
+    	AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C6# (online-audio-converter (mp3cut.net).wav"));
     	Clip clip = AudioSystem.getClip();
     	clip.open(audioInputStream);
     	clip.start();
@@ -524,7 +524,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F1# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F1# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -539,7 +539,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F3# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F3# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -554,7 +554,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F5# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F5# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -569,7 +569,7 @@ catch(Exception ex)
                 }
         		if(frame7_8.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F7# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F7# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -593,7 +593,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G1# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G1# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -608,7 +608,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G3# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G3# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -623,7 +623,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G5# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G5# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -638,7 +638,7 @@ catch(Exception ex)
                 }
         		if(frame7_8.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G7# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G7# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -663,7 +663,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -678,7 +678,7 @@ catch(Exception ex)
                 }
           		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -693,7 +693,7 @@ catch(Exception ex)
                 }
           		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -708,7 +708,7 @@ catch(Exception ex)
                 }
           		if(frame7_8.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G7 (online-audio-converter.com).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G7 (online-audio-converter.com).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -733,7 +733,7 @@ catch(Exception ex)
         	public void actionPerformed(ActionEvent e) {
         		if(frame1_2.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A1# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A1# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -748,7 +748,7 @@ catch(Exception ex)
                 }
         		if(frame3_4.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A3# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A3# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -763,7 +763,7 @@ catch(Exception ex)
                 }
         		if(frame5_6.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A5# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A5# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -778,7 +778,7 @@ catch(Exception ex)
                 }
         		if(frame7_8.isSelected()) {
                 	try {
-                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A7# (online-audio-converter (mp3cut.net).wav"));
+                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A7# (online-audio-converter (mp3cut.net).wav"));
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioInputStream);
                         clip.start();
@@ -805,7 +805,7 @@ catch(Exception ex)
                     public void actionPerformed(ActionEvent e) {
                         if(frame1_2.isSelected()) {
                     	try {
-                            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\Sharp notes\\Sharp notes\\D1# (online-audio-converter (mp3cut.net).wav"));
+                            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D1# (online-audio-converter (mp3cut.net).wav"));
                             Clip clip = AudioSystem.getClip();
                             clip.open(audioInputStream);
                             clip.start();
@@ -820,7 +820,7 @@ catch(Exception ex)
                     }
                         if(frame3_4.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D3# (online-audio-converter (mp3cut.net).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D3# (online-audio-converter (mp3cut.net).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -835,7 +835,7 @@ catch(Exception ex)
                         }
                         if(frame5_6.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D5# (online-audio-converter (mp3cut.net).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D5# (online-audio-converter (mp3cut.net).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -850,7 +850,7 @@ catch(Exception ex)
                         }
                         if(frame7_8.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D7# (online-audio-converter (mp3cut.net).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D7# (online-audio-converter (mp3cut.net).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -877,7 +877,7 @@ catch(Exception ex)
                     public void actionPerformed(ActionEvent e) {
                     	if(frame1_2.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -892,7 +892,7 @@ catch(Exception ex)
                         }
                     	if(frame3_4.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -907,7 +907,7 @@ catch(Exception ex)
                         }
                     	if(frame5_6.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -922,7 +922,7 @@ catch(Exception ex)
                         }
                     	if(frame7_8.isSelected()) {
                         	try {
-                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C7 Piano Note (online-audio-converter.com).wav"));
+                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C7 Piano Note (online-audio-converter.com).wav"));
                                 Clip clip = AudioSystem.getClip();
                                 clip.open(audioInputStream);
                                 clip.start();
@@ -949,7 +949,7 @@ catch(Exception ex)
                                                                	
                                     	if(frame1_2.isSelected()) {
                                         	try {
-                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                                 Clip clip = AudioSystem.getClip();
                                                 clip.open(audioInputStream);
                                                 clip.start();
@@ -964,7 +964,7 @@ catch(Exception ex)
                                         }
                                      	if(frame3_4.isSelected()) {
                                         	try {
-                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                 Clip clip = AudioSystem.getClip();
                                                 clip.open(audioInputStream);
                                                 clip.start();
@@ -979,7 +979,7 @@ catch(Exception ex)
                                         }
                                      	if(frame5_6.isSelected()) {
                                         	try {
-                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D5 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D5 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                 Clip clip = AudioSystem.getClip();
                                                 clip.open(audioInputStream);
                                                 clip.start();
@@ -994,7 +994,7 @@ catch(Exception ex)
                                         }
                                      	if(frame7_8.isSelected()) {
                                         	try {
-                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D7 (online-audio-converter (online-audio-converter.com).wav"));
+                                                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D7 (online-audio-converter (online-audio-converter.com).wav"));
                                                 Clip clip = AudioSystem.getClip();
                                                 clip.open(audioInputStream);
                                                 clip.start();
@@ -1020,7 +1020,7 @@ catch(Exception ex)
                                             public void actionPerformed(ActionEvent e) {
                                              	if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1035,7 +1035,7 @@ catch(Exception ex)
                                                 }
                                             	if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1050,7 +1050,7 @@ catch(Exception ex)
                                                 }
                                             	if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1065,7 +1065,7 @@ catch(Exception ex)
                                                 }
                                             	if(frame7_8.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E7 (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E7 (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1089,7 +1089,7 @@ catch(Exception ex)
                                         	public void actionPerformed(ActionEvent e) {
                                           		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1104,7 +1104,7 @@ catch(Exception ex)
                                                 }
                                           		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1119,7 +1119,7 @@ catch(Exception ex)
                                                 }
                                           		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1134,7 +1134,7 @@ catch(Exception ex)
                                                 }
                                           		if(frame7_8.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A7 (online-audio-converter (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A7 (online-audio-converter (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1160,7 +1160,7 @@ catch(Exception ex)
                                         	public void actionPerformed(ActionEvent e) {
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1175,7 +1175,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1190,7 +1190,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1205,7 +1205,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame7_8.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B7 (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B7 (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1231,7 +1231,7 @@ catch(Exception ex)
                                         	public void actionPerformed(ActionEvent e) {
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F1 Piano Note (128 kbps) (online-audio-converter (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1246,7 +1246,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F3 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1261,7 +1261,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F5 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1276,7 +1276,7 @@ catch(Exception ex)
                                                 }
                                         		if(frame7_8.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F7 (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F7 (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1305,7 +1305,7 @@ C2.addActionListener(new ActionListener() {
     public void actionPerformed(ActionEvent e) {
     	if(frame1_2.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1320,7 +1320,7 @@ C2.addActionListener(new ActionListener() {
         }
     	if(frame3_4.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1335,7 +1335,7 @@ C2.addActionListener(new ActionListener() {
         }
     	if(frame5_6.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1350,7 +1350,7 @@ C2.addActionListener(new ActionListener() {
         }
     	if(frame7_8.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\C8 Piano Note (mp3cut.net).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\C8 Piano Note (mp3cut.net).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1376,7 +1376,7 @@ D2.addActionListener(new ActionListener() {
     public void actionPerformed(ActionEvent e) {
      	if(frame1_2.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1391,7 +1391,7 @@ D2.addActionListener(new ActionListener() {
         }
      	if(frame3_4.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1406,7 +1406,7 @@ D2.addActionListener(new ActionListener() {
         }
      	if(frame5_6.isSelected()) {
         	try {
-                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\D6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\D6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
@@ -1433,7 +1433,7 @@ layeredPane.add(D2);
                                         		
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1448,7 +1448,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1463,7 +1463,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\E6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\E6 Piano Note (128 kbps) (Snap2s (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1490,7 +1490,7 @@ layeredPane.add(D2);
                                         		
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F2 Piano Note (128 kbps) (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F2 Piano Note (128 kbps) (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1505,7 +1505,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1520,7 +1520,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\F6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\F6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1547,7 +1547,7 @@ layeredPane.add(D2);
                                        		
                                           		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G2 Piano Note (128 kbps) (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G2 Piano Note (128 kbps) (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1562,7 +1562,7 @@ layeredPane.add(D2);
                                                 }
                                           		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1577,7 +1577,7 @@ layeredPane.add(D2);
                                                 }
                                           		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\G6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\G6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1604,7 +1604,7 @@ layeredPane.add(D2);
                                         		
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A2 Piano Note (128 kbps) (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A2 Piano Note (128 kbps) (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1619,7 +1619,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A4 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1634,7 +1634,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\A6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\A6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1661,7 +1661,7 @@ layeredPane.add(D2);
                                         		
                                         		if(frame1_2.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B2 Piano Note (128 kbps) (Snap2s (mp3cut.net).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1676,7 +1676,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame3_4.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B4 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B4 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
@@ -1691,7 +1691,7 @@ layeredPane.add(D2);
                                                 }
                                         		if(frame5_6.isSelected()) {
                                                 	try {
-                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\balaj\\OneDrive\\Desktop\\java project\\final notes\\B6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
+                                                        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("images_tunes\\track\\B6 Piano Note (128 kbps) (online-audio-converter.com).wav"));
                                                         Clip clip = AudioSystem.getClip();
                                                         clip.open(audioInputStream);
                                                         clip.start();
