@@ -13,7 +13,7 @@ In the Virtual Piano JFrame, the interface is crafted with various components su
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/c4b970e6-7c31-4831-9e4a-e1d23b3da761">
 <br>
 
-The user data will be stored in the database ie Php and wamp server.<br>
+The user data will be stored in the database i.e. Php and wamp server.<br>
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/a24868e0-ff83-4525-9c53-c4e293efae40">
 
 
